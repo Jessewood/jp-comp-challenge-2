@@ -1,0 +1,112 @@
+* {
+    font-family: "Helvetica", "sans-serif"
+}
+
+header {
+    height: 150px;
+    background-color: #405470;
+    color: #fff;
+}
+.nav-links {
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    text-align: center
+}
+.dealer-locator {
+    color: #fff;
+    position: relative;
+    float: right;
+    width: 100px;
+}
+
+.husky-logo {
+    height: 50px;
+    margin: 50px 0 25px;
+    position: absolute;
+    right: 10px;
+}
+
+.globe-icon {
+    width:20px;
+    float:right;
+    margin: 14px 5px 0;
+}
+
+.header-icon {
+    width:20px;
+    margin: 105px 5px 0 10px;
+}
+
+
+h1 {
+    display: block;
+    margin-left: 5px;
+}
+h3 {
+    margin: 0;
+    font-weight: lighter;
+}
+main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+article {
+    height: 420px;
+    width: 23%;
+    border: 2px solid lightgrey;
+    margin: 5px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article img {
+    max-width: 100%;
+    z-index: -1;
+}
+article div {
+
+}
+
+.reviews {
+    float: right;
+    font-size: 12px;
+    margin: 3px;
+}
+
+span {
+    font-size: 16px;
+    margin-left: 27px;
+}
+.icon {
+    position:relative;
+    width: 28px;
+    margin: 3px 0 0 5px;
+}
+
+.bike-model {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0 0 10px;
+}
+
+.engine{
+    margin: 0 10px 10px;
+    font-size: 14px;
+}
+
+.engine-performance {
+    background-color: #405470;
+    color: #fff;
+    height: auto;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 14px;
+    width: 85%;
+}
+
+.price {
+    padding: 10px 0 0 8px;
+}
