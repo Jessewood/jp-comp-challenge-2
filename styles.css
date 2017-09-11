@@ -15,7 +15,6 @@ nav {
 }
 
 .nav-links {
-    align-content: center;
     padding-bottom: 10px;
 }
 
@@ -62,7 +61,7 @@ main {
 
 article {
     height: auto;
-    width: 23%;
+    width: 23vw;
     border: 2px solid lightgrey;
     margin: 5px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -118,10 +117,39 @@ article img {
     font-weight: bold;
 }
 
-@media screen (max-width: 801px) {
+@media screen and (max-width: 820px) {
 
-main {
-    flex-
+article {
+    width: 45%;
+}
+
+}
+
+@media screen and (max-width: 670px) {
+
+article {
+    width: 90%;
+}
+
+nav {
+    height: 20px;
+}
+
+.husky-logo {
+    height: 30px;
+    margin: 80px 5px;
+}
+
+.header-icon {
+    width:12px;
+    margin: 95px 5px 0px 10px;
 }
 }
 
+@media screen and (max-width: 550px) {
+
+.nav-links {
+    display: block;
+}
+
+}
