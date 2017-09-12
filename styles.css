@@ -14,41 +14,6 @@ nav {
     align-items: flex-start;
 }
 
-.nav-links {
-    padding-bottom: 10px;
-}
-
-.hamburger {
-    height: 25px;
-    display: none;
-}
-
-.dealer-locator {
-    color: #fff;
-    position: relative;
-    float: right;
-    width: 100px;
-    padding-right: 3px;
-}
-
-.husky-logo {
-    height: 50px;
-    margin: 50px 0;
-    position: absolute;
-    right: 10px;
-}
-
-.globe-icon {
-    width:20px;
-    float:right;
-    margin: 14px 5px 0;
-}
-
-.header-icon {
-    width:20px;
-    margin: 95px 5px -5px 10px;
-}
-
 
 h1 {
     color: #405470;
@@ -91,6 +56,49 @@ article img {
     float: right;
     font-size: 12px;
     margin: 10px 10px;
+}
+
+.nav-links {
+    padding-bottom: 10px;
+}
+
+.nav-links:hover {
+    color: #FFFA60;
+}
+
+.hamburger {
+    height: 25px;
+    display: none;
+}
+
+.dealer-locator {
+    color: #fff;
+    position: relative;
+    float: right;
+    width: 100px;
+    padding-right: 3px;
+}
+
+.dealer-locator:hover {
+    color: #FFFA60;
+}
+
+.husky-logo {
+    height: 50px;
+    margin: 50px 0;
+    position: absolute;
+    right: 10px;
+}
+
+.globe-icon {
+    width:20px;
+    float:right;
+    margin: 14px 5px 0;
+}
+
+.header-icon {
+    width:20px;
+    margin: 95px 5px -5px 10px;
 }
 
 .review-number {
