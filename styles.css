@@ -18,16 +18,22 @@ nav {
     padding-bottom: 10px;
 }
 
+.hamburger {
+    height: 25px;
+    display: none;
+}
+
 .dealer-locator {
     color: #fff;
     position: relative;
     float: right;
     width: 100px;
+    padding-right: 3px;
 }
 
 .husky-logo {
     height: 50px;
-    margin: 50px 5px;
+    margin: 50px 0;
     position: absolute;
     right: 10px;
 }
@@ -45,14 +51,18 @@ nav {
 
 
 h1 {
+    color: #405470;
+    background-color: #FFFA60;
     display: block;
-    margin: 25px 0 15px 15px;
+    padding: 25px 0 15px 15px;
+    margin: 0;
 }
 h3 {
     margin: 0;
     font-weight: lighter;
 }
 main {
+    background-color: #FFFA60;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -60,11 +70,17 @@ main {
 }
 
 article {
+    background-color: #fff;
     height: auto;
     width: 23vw;
     border: 2px solid lightgrey;
-    margin: 5px auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px auto;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article:hover {
+    transform: scale(1.025);
+    transition: ease 250ms;
 }
 
 article img {
@@ -136,20 +152,47 @@ nav {
 }
 
 .husky-logo {
-    height: 30px;
-    margin: 80px 5px;
+    height: 40px;
+    margin: 85px 5px;
 }
 
 .header-icon {
-    width:12px;
-    margin: 95px 5px 0px 10px;
+    width: 12px;
+    margin: 105px 5px 0px 10px;
 }
 }
 
 @media screen and (max-width: 550px) {
 
-.nav-links {
-    display: block;
+h1 {
+    font-size: 20px;
+    padding: 25px 0 0 30px;
+}
+header {
+    height: 120px;
+}
+nav {
+    display: none;
 }
 
+.globe-icon {
+    margin-top: 8px;
+}
+
+.dealer-locator{
+    margin-top: 10px;
+}
+.husky-logo {
+    margin-top: 75px;
+}
+
+.nav-links {
+    height: 10px;
+    display: block;
+    margin: 0;
+}
+.hamburger {
+    display: inline-block;
+    padding: 5px;
+}
 }
