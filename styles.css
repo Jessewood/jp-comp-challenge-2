@@ -164,13 +164,13 @@ nav {
 
 .husky-logo {
     height: 40px;
-    margin: 85px 5px;
+    margin: -20px 5px;
 }
 
-.header-icon {
+/*.header-icon {
     width: 12px;
     margin: 105px 5px 0px 10px;
-}
+}*/
 }
 
 @media screen and (max-width: 550px) {
