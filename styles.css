@@ -12,6 +12,7 @@ nav {
     height: 40px;
     display: flex;
     align-items: flex-start;
+    margin-top: 95px;
 }
 
 
@@ -59,6 +60,7 @@ article img {
 }
 
 .nav-links {
+    height: 15px;
     padding-bottom: 10px;
 }
 
@@ -84,8 +86,9 @@ article img {
 }
 
 .husky-logo {
+    display: inline-block;
     height: 50px;
-    margin: 50px 0;
+    margin: -45px 0;
     position: absolute;
     right: 10px;
 }
@@ -98,7 +101,7 @@ article img {
 
 .header-icon {
     width:20px;
-    margin: 95px 5px -5px 10px;
+    margin: 0 5px -5px 10px;
 }
 
 .review-number {
